@@ -1,0 +1,123 @@
+@import 'null.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.header {
+    width: 1440px;
+    margin: 0 auto;
+    
+}
+.main__container {
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.who-we-are {
+    background: #5D62B5;
+    border-radius: 40px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    top:-80px;
+    margin-bottom: 100px;
+}
+.who-we-are::before{
+    content: '';
+    width: 201px;
+    height: 317px;
+    background: url(../img/Circles.png)0 0 no-repeat;
+    position: absolute;
+    z-index: 5;
+    right: -75px;
+    top:-110px;
+}
+.who-we-are::after{
+    content: '';
+    width: 665px;
+    height: 591px;
+    background: url(../img/Blob2.png)0 0 no-repeat;
+    position: absolute;
+    z-index: 1;
+    top: 253px;
+    left: -15px;
+}
+.who-we-are__title {
+    padding-top: 97px;
+    margin-left: 87px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 32px;
+}
+.who-we-are__title h2{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    line-height: 2;
+    text-transform: uppercase;
+    color:#F5F5F5;
+    
+}
+.who-we-are__title::before{
+    content: '';
+    background: url(../img/icon.svg)0 0 no-repeat;
+    width: 17px;
+    height: 21px;
+    position: absolute;
+    left: -3px;
+    bottom:5px;
+}
+.who-we-are__subtitle {
+    margin-left: 87px;
+    margin-bottom: 36px;
+    width: 583px;
+    position: relative;
+    z-index: 2;
+}
+.who-we-are__subtitle h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.who-we-are__text {
+    width: 846px;
+    margin:0 auto 56px;
+    position: relative;
+    z-index: 2;
+}
+.who-we-are__text p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color:#F5F5F5;
+}
+.who-we-are__picture {
+    position: relative;
+    z-index: 2;
+}
+.who-we-are__image {
+    margin-bottom: -120px;
+    display: inline-block;
+    margin-left:87px;
+    border-radius: 40px;
+}
+
+.footer {
+    background: #5D62B5;
+    text-align: center;
+}
+.footer__title {
+    color:#fff;
+    font-size: 30px;
+    line-height: 4;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 50px 0;
+}
